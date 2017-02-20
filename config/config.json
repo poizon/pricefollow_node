@@ -1,0 +1,14 @@
+{
+  "port": 3000,
+  "mongoose":
+  {
+    "uri": "mongodb://localhost/price_follow",
+    "options" : {
+      "server": {
+        "socketOptions": {
+          "keepAlive": 1
+        }
+      }
+    }
+  }
+}
